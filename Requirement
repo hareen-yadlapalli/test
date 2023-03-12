@@ -1,0 +1,51 @@
+give html css and vanilla js in different files that takes inputs of two jsons (not files), 
+1. compares them
+2. shows the comparison in a tabular format with differences highlighted in yellow. 
+3. table should have three columns, first column should have attribute name, second column should have attribute value in json 1 and third column should have attribute value in json 2
+4. jsons can have different structures, attributes, arrays, array lengths, nested objects, nested object definitions
+5. if the array is being compared, first column should have object name(array number).attribute name
+6. if the object is being compared, first column should have object.attribute name
+
+
+{
+    "name": "John Smith",
+    "age": 30,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "555-1234"
+        },
+        {
+            "type": "work",
+            "number": "555-5678"
+        }
+    ]
+}
+
+
+{
+    "name": "Jane Doe",
+    "age": 35,
+    "address": {
+        "street": "456 Oak St",
+        "city": "Anyville",
+        "state": "NY",
+        "zip": "54321"
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "555-4321"
+        },
+        {
+            "type": "mobile",
+            "number": "555-8765"
+        }
+    ]
+}
